@@ -72,7 +72,7 @@ tensorflow-estimator==2.13.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
 typing-inspect==0.9.0
-typing_extensions==4.5.0
+typing_extensions
 tzdata==2023.3
 tzlocal==4.3.1
 validators==0.22.0
