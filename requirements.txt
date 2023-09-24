@@ -46,7 +46,6 @@ ply==3.11
 protobuf==4.24.3
 pyarrow==11.0.0
 pyasn1-modules==0.2.8
-pycurl==7.45.2
 pydantic==2.3.0
 pydantic_core==2.6.3
 pydeck==0.8.0
