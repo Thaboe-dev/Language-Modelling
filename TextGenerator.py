@@ -9,7 +9,7 @@ import pickle
 
 # Load the model and tokenizer
 
-model = tf.keras.models.load_model('model.h5', compile=False)
+model = tf.keras.models.load_model('model.keras', compile=False)
 tokenizer = pickle.load(open('tokenizer.pkl', 'rb'))
 
 
