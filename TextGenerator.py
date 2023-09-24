@@ -8,7 +8,7 @@ import pickle
 
 # Load the model and tokenizer
 
-model = load_model('model.h5')
+model = load_model('model.keras')
 tokenizer = pickle.load(open('tokenizer.pkl', 'rb'))
 
 
