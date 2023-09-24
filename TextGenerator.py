@@ -9,7 +9,7 @@ import pickle
 
 # Load the model and tokenizer
 
-model = tf.keras.models.load_model('model.h5')
+#model = load_model('model.keras')
 tokenizer = pickle.load(open('tokenizer.pkl', 'rb'))
 
 
@@ -65,7 +65,8 @@ def main():
     if st.button("Generate"):
         
         if (seed_text is not None and len(lst)==5):
-        
+                
+            model = load_model('model.keras')           
             result = generate_seq(model, tokenizer, seed_text)
             st.success(result)
         
