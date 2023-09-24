@@ -1,5 +1,6 @@
 #Imports
 import streamlit as st
+import tensorflow as tf
 from keras.models import load_model
 #from keras.preprocessing.sequence import pad_sequences
 from keras.utils import pad_sequences
@@ -8,7 +9,7 @@ import pickle
 
 # Load the model and tokenizer
 
-model = load_model('model.h5')
+model = tf.keras.models.load_model('model.h5')
 tokenizer = pickle.load(open('tokenizer.pkl', 'rb'))
 
 
