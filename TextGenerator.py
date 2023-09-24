@@ -66,7 +66,7 @@ def main():
         
         if (seed_text is not None and len(lst)==5):
                 
-            model = load_model('model.keras')           
+            model = load_model('best_model.h5',compile=False)           
             result = generate_seq(model, tokenizer, seed_text)
             st.success(result)
         
