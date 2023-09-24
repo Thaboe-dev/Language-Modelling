@@ -43,7 +43,7 @@ def generate_seq(model, tokenizer,seed_text):
 def main():
 
     
-    st.title("NLP: Language Modelling")
+    st.title("NLP: Shona Next Word Predictor")
 
     html_temp = """
     <body style="background-color:red;">
@@ -55,7 +55,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
     st.title("Generate the next word")
-    seed_text = st.text_input("Enter any five words: ")
+    seed_text = st.text_input("Enter any five shona words: ")
     lst = list(seed_text.split())
 
             
